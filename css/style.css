@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+	background-color: #102c54;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	text-align: right;
+
+
+}
+
+.nav-bar li {
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav-bar a {
+	color: #ffff00;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	background-image: url(../images/back.avif);
+	background-size: cover;
+	color: #ffff00;
+	min-height: 20vh;
+	padding-left: 100px;
+}
+
+.main-txt {
+	font-size: 2rem;
+}
+
+.btn {
+	margin-top: 50px;
+}
+
+
+main a {
+	background-color: #ffff00;
+	text-decoration: none;
+	color: #102c54;
+	padding: 10px 20px;
+}
+
+ .main-img {
+ 	height: auto;
+ 	width: auto;
+ }
+
+#exp {
+	margin: 25px;
+}
+#exp h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 2px solid #102c54 ;
+}
+
+.head-row {
+	background-color: #102c54;
+	color: #ffff00;
+}
+
+td {
+	padding: 20px;
+}
+
+#contact-block {
+	background-color: #102c54;
+	color: #ffff00;
+}
+
+#contact-block h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 100px;
+	padding: 20px;
+}
+
+.contact-form {
+	display: flex;
+	margin-left: 300px;
+}
+
+.form-item {
+	margin-left: 300px;
+}
+
+.form-item input {
+	block-size: 20px;
+}
+
+.form-item input,
+.form-item textarea {
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #ffff00;
+	border-width: 3px;
+	margin: 10px;
+	width: 200%;
+}
+
+
+.form-item button {
+	background-color: #ffff00;
+	border: 0;
+	color: #102c54;
+	border-radius: 5px;
+	margin-left: 80%;
+	font-weight: 100;
+	font-size: 1.5rem;
+	padding: 5px 25px;
+
+}
+
+footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 20%;
+}
+footer img {
+	width: 20%;
+}
+
+.form-item button[disabled] {
+	background-color: grey;
+}
